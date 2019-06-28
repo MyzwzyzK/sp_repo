@@ -12,6 +12,6 @@ public class Item {
 	private Integer id;
 	//兆各
 	private String name;
-	//
+	//、、、、、//////
 	private Integer number;
 }
