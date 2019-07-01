@@ -3,15 +3,16 @@ spring:
     name: config-server
   profiles:
     active: native
-  
-  cloud:
-    config:
-      server:
-        native:
-          search-locations: classpath:/config
+
+#默认配置  
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/config
           
   rabbitmq:
-    host: 192.168.64.140
+    host: 192.168.74.128
     port: 5672
     username: admin
     password: admin
